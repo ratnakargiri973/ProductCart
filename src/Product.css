@@ -1,0 +1,36 @@
+.Product{
+    width: 15rem;
+    height: 17rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.item{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+.Btn{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding:  0 0.5rem;
+    border-radius: 5px;
+}
+.Btn button{
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: white;
+}
